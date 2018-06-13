@@ -20,13 +20,17 @@ body, html {
     opacity: 0.5;
 }
 
-.container-fluid img {
+.kathryn {
     border-radius: 50%;
+    width: 100%;
+    float: left;
+    margin-right: 50px;
+    border: solid black 1px;
 }
 
-.responsive img {
-    width: 100%;
-    height: auto;
+.container-fluid p {
+    float: left;
+    line-height: 3;
 }
 
 .btn-primary {
@@ -56,8 +60,10 @@ body, html {
 .container-fluid {
     background-color: white;
     padding: 30px;
-    width: 960px;
-    height: 700px;
+    width: 100%;
+    min-height: 100%;
+    height:auto !important;
+    height: 100%;
     margin: auto;
     border-color: #cccccc;
     border-style: solid;
